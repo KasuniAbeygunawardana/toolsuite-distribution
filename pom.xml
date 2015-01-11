@@ -445,6 +445,11 @@ Optional parameters:
 					<layout>p2</layout>
 					<url>http://download.eclipse.org/eclipse/updates/4.4/</url>
 				</repository>
+				<repository>
+					<id>luna-sr1a</id>
+					<layout>p2</layout>
+					<url>http://download.eclipse.org/releases/luna/201501121000/</url>
+				</repository>
 <!--				<repository>
 				<id>luna-updates</id>
 				<layout>p2</layout>
