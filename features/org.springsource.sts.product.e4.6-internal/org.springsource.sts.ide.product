@@ -9,22 +9,19 @@
       <programArgs>-product org.springsource.sts.ide
 --launcher.defaultAction
 openFile</programArgs>
-      <programArgsWin>--launcher.XXMaxPermSize
-256M</programArgsWin>
       <vmArgs>-Dosgi.requiredJavaVersion=1.8
 -Xms40m
+-Xmx1500m
 -XX:+UseG1GC
 -Xverify:none</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Xdock:icon=../Resources/sts.icns
-         <argsX86_64>-Xmx1500m -javaagent:../Eclipse/lombok.jar</argsX86_64>
+         <argsX86_64>-javaagent:../Eclipse/lombok.jar</argsX86_64>
       </vmArgsMac>
       <vmArgsWin>-Dorg.eclipse.swt.browser.IEVersion=10001
-         <argsX86_64>-Xmx1500m</argsX86_64>
-         <argsX86>-Xmx768m</argsX86>
+         <argsX86_64></argsX86_64>
       </vmArgsWin>
       <vmArgsLin>
-         <argsX86_64>-Xmx1500m -javaagent:lombok.jar</argsX86_64>
-         <argsX86>-Xmx768m -javaagent:lombok.jar</argsX86>
+         <argsX86_64>-javaagent:lombok.jar</argsX86_64>
       </vmArgsLin>
    </launcherArgs>
 
