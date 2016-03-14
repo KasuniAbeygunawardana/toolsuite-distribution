@@ -34148,8 +34148,9 @@ Alternatively, the Source Files may accompany the Pivotal product.
       <feature id="org.eclipse.aether.maven.feature" installMode="root"/>
       <feature id="org.eclipse.aether.transport.file.feature" installMode="root"/>
       <feature id="org.eclipse.aether.transport.http.feature" installMode="root"/>
+
+      <feature id="org.eclipse.buildship" installMode="root"/>
 		  
-      <feature id="org.eclipse.draw2d" installMode="root"/>
       <feature id="org.eclipse.e4.rcp" installMode="root"/>
 
       <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
@@ -34159,25 +34160,10 @@ Alternatively, the Source Files may accompany the Pivotal product.
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" installMode="root"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature" installMode="root"/>
 
-      <feature id="org.eclipse.emf" installMode="root"/>
-      <feature id="org.eclipse.emf.codegen" installMode="root"/>
-      <feature id="org.eclipse.emf.codegen.ecore" installMode="root"/>
-      <feature id="org.eclipse.emf.codegen.ecore.ui" installMode="root"/>
-      <feature id="org.eclipse.emf.codegen.ui" installMode="root"/>
+      <feature id="org.eclipse.egit" installMode="root"/>
+
       <feature id="org.eclipse.emf.common" installMode="root"/>
-      <feature id="org.eclipse.emf.common.ui" installMode="root"/>
-      <feature id="org.eclipse.emf.converter" installMode="root"/>
-      <feature id="org.eclipse.emf.databinding" installMode="root"/>
-      <feature id="org.eclipse.emf.databinding.edit" installMode="root"/>
       <feature id="org.eclipse.emf.ecore" installMode="root"/>
-      <feature id="org.eclipse.emf.ecore.edit" installMode="root"/>
-      <feature id="org.eclipse.emf.ecore.editor" installMode="root"/>
-      <feature id="org.eclipse.emf.edit" installMode="root"/>
-      <feature id="org.eclipse.emf.edit.ui" installMode="root"/>
-      <feature id="org.eclipse.emf.mapping" installMode="root"/>
-      <feature id="org.eclipse.emf.mapping.ecore" installMode="root"/>
-      <feature id="org.eclipse.emf.mapping.ecore.editor" installMode="root"/>
-      <feature id="org.eclipse.emf.mapping.ui" installMode="root"/>
 	  
       <feature id="org.eclipse.epp.mpc" installMode="root"/>
 
@@ -34186,103 +34172,46 @@ Alternatively, the Source Files may accompany the Pivotal product.
       <feature id="org.eclipse.equinox.p2.extras.feature" installMode="root"/>
       <feature id="org.eclipse.equinox.p2.rcp.feature" installMode="root"/>
       <feature id="org.eclipse.equinox.p2.user.ui" installMode="root"/>
+
       <feature id="org.eclipse.gef" installMode="root"/>
-		  
       <feature id="org.eclipse.help" installMode="root"/>
       <feature id="org.eclipse.jdt" installMode="root"/>
+      <feature id="org.eclipse.jgit" installMode="root"/>
 
-      <feature id="org.eclipse.jsf.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.common.fproj.enablement.jdt" installMode="root"/>
-      <feature id="org.eclipse.jst.enterprise_core.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.enterprise_ui.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.enterprise_userdoc.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.server_adapters.ext.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.server_adapters.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.server_core.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.server_ui.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.server_userdoc.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.web_core.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.web_ui.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.web_userdoc.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.webpageeditor.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.ws.axis2tools.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.ws.cxf.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.ws.jaxws_userdoc.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.ws.jaxws.dom.feature" installMode="root"/>
-      <feature id="org.eclipse.jst.ws.jaxws.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.logback.feature" installMode="root"/>
 
       <feature id="org.eclipse.platform" installMode="root"/>
+
+      <feature id="org.eclipse.oomph.p2" installMode="root"/>
+      <feature id="org.eclipse.oomph.setup" installMode="root"/>
+      <feature id="org.eclipse.oomph.setup.core" installMode="root"/>
+      <feature id="org.eclipse.platform" installMode="root"/>
+
       <feature id="org.eclipse.rcp" installMode="root"/>
-
-      <feature id="org.eclipse.rse" installMode="root"/>
-      <feature id="org.eclipse.rse.core" installMode="root"/>
-      <feature id="org.eclipse.rse.dstore" installMode="root"/>
-      <feature id="org.eclipse.rse.ftp" installMode="root"/>
-      <feature id="org.eclipse.rse.local" installMode="root"/>
-      <feature id="org.eclipse.rse.ssh" installMode="root"/>
-      <feature id="org.eclipse.rse.telnet" installMode="root"/>
-      <feature id="org.eclipse.rse.useractions" installMode="root"/>
-
-      <feature id="org.eclipse.tm.terminal.connector.local.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.connector.serial.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.connector.ssh.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.connector.telnet.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.control.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.view.feature" installMode="root"/>
 
       <feature id="org.eclipse.wst.common_core.feature" installMode="root"/>
       <feature id="org.eclipse.wst.common_ui.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.common.fproj" installMode="root"/>
       <feature id="org.eclipse.wst.jsdt.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.server_adapters.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.server_core.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.server_ui.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.server_userdoc.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.web_core.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.web_ui.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.web_userdoc.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.ws_core.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.ws_ui.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.ws_userdoc.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.ws_wsdl15.feature" installMode="root"/>
       <feature id="org.eclipse.wst.xml_core.feature" installMode="root"/>
       <feature id="org.eclipse.wst.xml_ui.feature" installMode="root"/>
       <feature id="org.eclipse.wst.xml_userdoc.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.xml.xpath2.processor.feature" installMode="root"/>
-      <feature id="org.eclipse.wst.xsl.feature" installMode="root"/>
 
       <feature id="org.eclipse.zest" installMode="root"/>
 
       <feature id="org.springsource.sts.package" installMode="root"/>
 
-      <feature id="org.eclipse.m2e.feature" installMode="root"/>
-
-      <feature id="org.eclipse.m2e.logback.feature" installMode="root"/>
-      <feature id="org.eclipse.m2e.wtp.feature" installMode="root"/>
-      <feature id="org.eclipse.m2e.wtp.jaxrs.feature" installMode="root"/>
-      <feature id="org.eclipse.m2e.wtp.jpa.feature" installMode="root"/>
-      <feature id="org.eclipse.m2e.wtp.jsf.feature" installMode="root"/>
-
       <feature id="org.maven.ide.eclipse.ajdt.feature" installMode="root"/>
       <feature id="org.sonatype.m2e.buildhelper.feature" installMode="root"/>
       <feature id="org.sonatype.m2e.mavenarchiver.feature" installMode="root"/>
       <feature id="org.sonatype.m2e.egit.feature" installMode="root"/>
+
       <feature id="org.jboss.tools.m2e.wro4j.feature" installMode="root"/>
       <feature id="com.ifedorenko.m2e.mavendev.feature" installMode="root"/>
       <feature id="com.ianbrandt.tools.m2e.mdp.feature" installMode="root"/>
 
-      <feature id="org.eclipse.cft.server.core.feature" installMode="root"/>
-      <feature id="org.eclipse.cft.server.ui.feature" installMode="root"/>
-
       <feature id="JDepend4Eclipse" installMode="root"/>
-	  
-      <feature id="org.eclipse.egit" installMode="root"/>
-      <feature id="org.eclipse.jgit" installMode="root"/>
-	  
       <feature id="org.springsource.ide.eclipse.gradle.feature" installMode="root"/>
-	  
       <feature id="net.mihai-nita.ansicon" installMode="root"/>
    </features>
 
